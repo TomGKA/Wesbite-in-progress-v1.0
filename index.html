@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="main-content">
+    <header class="section section1 header active" id="home">
+        <div class="header-content">
+            <div class="left-header">
+                <div class="h-shape"></div>
+                <div class="img">
+                    <img src="img/me and Laur.jpg" alt=""> <!-- need to put my image in here.-->
+                </div>
+            </div>
+            <div class="right-header">
+                <h1 div class="name">
+                    Hi I'm <span>Thomas G K Armitage.</span> A fullstack developer.
+                </h1>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+                </p>
+                <div class="btn-ctn">
+                    <a href="" class="main-btn"> <!--Add cv link in href-->
+                        <span class="btn-text">Download CV Here</span>
+                        <span class="btn-icon"><i class="fa-solid fa-file-lines"></i></span>
+                </div>
+                </a> 
+                </div>
+
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <section class="section section2 about" id="about">
+            <div class="main-title">
+                <h2>About<span>me</span><span class ="bg-text"> my stats </span></h2>
+            </div>
+        </section>
+        <section class="section section3 portfolio" id="portfolio"></section>
+        <section class="section section4 blogs" id="blogs"></section>
+        <section class="section section5 contact" id="contact"></section>
+    </main>
+    <div class="controls">
+        <div class="control control-1 active-btn" data-id="header">
+            <i class="fa-solid fa-house"></i>
+        </div>
+        <div class="control control-2" data-id="about">
+            <i class="fa-solid fa-user"></i>
+        </div>
+        <div class="control control-3" data-id="portfolio">
+            <i class="fa-solid fa-briefcase"></i>
+        </div>
+        <div class="control control-4" data-id="blogs">
+            <i class="fa-solid fa-newspaper"></i>
+        </div>
+        <div class="control control-5" data-id="contact">
+            <i class="fa-sharp fa-solid fa-address-card"></i>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html> 
